@@ -1,0 +1,133 @@
+:root {
+    --mainColor : #232a53;
+    --secondaryColor : #333e7e;
+    --acsentColor : #FF9100;
+    --qqcolor: rgb(129, 16, 8);
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family:'ubuntu', sans-serif;
+
+}
+section h2 span {
+    color: #ff1e00;
+    font-size: 2.5rem;
+}
+
+section h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+}
+
+/* Navbar */
+ 
+.nav-link.active  {
+    color: var(--acsentColor) !important;
+    font-weight: 700px;
+    
+
+  
+
+}
+
+
+
+/* End Navbar */
+
+/*Section Hero  */
+
+.color-acsent {
+    color: var(--acsentColor)
+}
+
+#hero {
+    color: #fff;
+    min-height: 100vh;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero h2 {
+    font-weight: 300;
+}
+
+#hero p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+/* CTA */
+
+.btn-custom1 {
+    background-color: var(--acsentColor);
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.btn-custom1:hover {
+    box-shadow: 0 0 5px rgba(255, 166, 0, .8 );
+}
+
+img src  {
+    shadow: 0 5 5px rgba(255, 166, 0, .8 );
+}
+
+.cv {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.sosial-icon svg {
+
+    margin-right: .7em;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+
+/* End Section Hero */
+
+/* About */
+
+hr{
+     
+    width: 35%;
+    height: 5px;
+    color: #fff;
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#about {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+/* End About */
+
+/* Skill */
+
+#skill {
+    min-height: 600px;
+    width: 100px;
+    color: #fff;
+
+ }
